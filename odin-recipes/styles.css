@@ -1,0 +1,17 @@
+.images{
+    width:250px;
+    height:250px;
+}
+
+.header{
+    text-align: center;
+    font-size: 30px;
+    color:purple;
+}
+container > img , span{
+    display:inline-block;
+}
+.recipe{
+    font-size:20px;
+    text-align: initial;
+}
