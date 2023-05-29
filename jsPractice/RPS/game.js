@@ -32,8 +32,12 @@ function playRound(playerSelection, computerSelection) {
         }
     }
   }
-
-  const playerSelection = "rock";
+  // let playerSelection = prompt("Pick rock, paper, or scissors");
+// if(playerSelection!== "rock" || playerSelection!== "paper" || playerSelection!== "scissor"){
+//     console.log("Please enter a valid input");
+//     process.exit(0);
+// }
+  let playerSelection = "rock";
   const computerSelection = getComputerChoice(options);
   console.log("The computer picked " + computerSelection);
   console.log("You picked " + playerSelection);
